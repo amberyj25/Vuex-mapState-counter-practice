@@ -2,7 +2,7 @@
   <div>
     <p>2.mapState 放物件</p>
     <p>{{count2}}</p>
-    <button @click="add2">+1</button>
+    <button @click="add2">+2</button>
   </div>
 </template>
 

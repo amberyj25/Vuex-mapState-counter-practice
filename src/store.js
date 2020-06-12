@@ -7,6 +7,9 @@ export default new Vuex.Store({
   state: {
     count1: 0,
     count2: 2,
+    newCount1: 5,
+    newCount2: 25,
+    newCount3: 25,
   },
   mutations: {
     counter1(state) {
@@ -14,6 +17,12 @@ export default new Vuex.Store({
     },
     counter2(state) {
       state.count2 += 2;
+    },
+    newCounter1(state) {
+      state.newCount1 += 150
+    },
+    newCounter3(state) {
+      state.newCount3 += 25
     }
   }
 })
